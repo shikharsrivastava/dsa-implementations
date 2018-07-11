@@ -8,7 +8,7 @@ using namespace std;
 
 		//////////////////////////////////////////////////
 		//												//
-		//	vector representation of a simple graph 	//
+		//	vector representation of a simple graphs	//
 		//												//
 		//////////////////////////////////////////////////
 	

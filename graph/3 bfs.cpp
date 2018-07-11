@@ -73,7 +73,7 @@ void bfs(vector<Node>& g, startingNode = 1)
 			continue;
 
 		// Mark this node as visited
-		visited[currNode] = true
+		visited[currNode] = true;
 
 		/* Do whatever you want to do when you
 		   first reach any node here (dependent on the problem)
@@ -284,7 +284,7 @@ int main()
 	// Clearing the visited array first.
 	// Marking all nodes as not visited
 	for(int i=0; i<sizeOfGraph + 1; i++)
-		visited[i] = false
+		visited[i] = false;
 
 	// This will start the bfs from node id 1
 	bfs(graph);

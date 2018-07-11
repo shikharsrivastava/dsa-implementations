@@ -22,7 +22,7 @@ struct Node
 	// Entries that this node must have
 	// (depending on the problem)
 	int a;
-	int b
+	int b;
 	.
 	.
 	.
@@ -35,7 +35,7 @@ struct Node
 // in dijkastra function. It's just a different way of implementation.
 // In most cases I prefer this method until the problem dictates otherwise
 // Assuming the maximum number of nodes in graph is 10^5 (problem dependent)
-bool visited[10e5 + 1]
+bool visited[10e5 + 1];
 
 
 /* dijkastra function
@@ -197,7 +197,7 @@ int main()
 	// Clearing the visited array first.
 	// Marking all nodes as not visited
 	for(int i=0; i<sizeOfGraph + 1; i++)
-		visited[i] = false
+		visited[i] = false;
 
 	// This will apply dijkastra from node id 1
 	vector<int> shortestDistance = dijkastra(graph);

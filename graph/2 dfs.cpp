@@ -20,7 +20,7 @@ struct Node
 	// Entries that this node must have
 	// (depending on the problem)
 	int a;
-	int b
+	int b;
 	.
 	.
 	.
@@ -33,7 +33,7 @@ struct Node
 // in dfs function. It's just a different way of implementation.
 // In most cases I prefer this method until the problem dictates otherwise
 // Assuming the maximum number of nodes in graph is 10^5 (problem dependent)
-bool visited[10e5 + 1]
+bool visited[10e5 + 1];
 
 
 /* dfs function
@@ -97,17 +97,17 @@ int main()
 	// Clearing the visited array first.
 	// Marking all nodes as not visited
 	for(int i=0; i<sizeOfGraph + 1; i++)
-		visited[i] = false
+		visited[i] = false;
 
 	// This will start the dfs from node id 1
-	dfs(graph)
+	dfs(graph);
 
 	/*
 		If we want to start the dfs from some
 		other node (say 5)-
 	*/
 
-	dfs(graph, 5)
+	dfs(graph, 5);
 }
 
 
@@ -127,7 +127,7 @@ struct Node
 	// Entries that this node must have
 	// (depending on the problem)
 	int a;
-	int b
+	int b;
 	.
 	.
 	.
@@ -140,7 +140,7 @@ struct Node
 // in dfs function. It's just a different way of implementation.
 // In most cases I prefer this method until the problem dictates otherwise
 // Assuming the maximum number of nodes in graph is 10^5 (problem dependent)
-bool visited[10e5 + 1]
+bool visited[10e5 + 1];
 
 
 /* dfs function
@@ -206,15 +206,15 @@ int main()
 	// Clearing the visited array first.
 	// Marking all nodes as not visited
 	for(int i=0; i<sizeOfGraph + 1; i++)
-		visited[i] = false
+		visited[i] = false;
 
 	// This will start the dfs from node id 1
-	dfs(graph)
+	dfs(graph);
 
 	/*
 		If we want to start the dfs from some
 		other node (say 5)-
 	*/
 
-	dfs(graph, 5)
+	dfs(graph, 5);
 }

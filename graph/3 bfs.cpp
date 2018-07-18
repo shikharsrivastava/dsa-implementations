@@ -5,9 +5,9 @@
 */
 
 	/////////////////////////////////////
-	//								   //
-	// 	BFS in an unweighted graph 	   //
-	//								   //
+	//                                 //
+	//  BFS in an unweighted graph     //
+	//                                 //
 	/////////////////////////////////////
 
 // The strucutre of the node depending
@@ -145,9 +145,9 @@ int main()
 
 
 	/////////////////////////////////////
-	//								   //
-	// 	BFS in a weighted graph 	   //
-	//								   //
+	//                                 //
+	//      BFS in a weighted graph    //
+	//                                 //
 	/////////////////////////////////////
 
 

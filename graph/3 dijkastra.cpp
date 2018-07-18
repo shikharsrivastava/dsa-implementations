@@ -5,9 +5,9 @@
 */
 
 	//////////////////////////////////////
-	//								   	//
-	// 	Dijkastra in an weighted graph 	//
-	//								    //
+	//                                  //
+	//  Dijkastra in an weighted graph  //
+	//                                  //
 	//////////////////////////////////////
 
 

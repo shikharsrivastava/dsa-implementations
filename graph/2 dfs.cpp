@@ -5,9 +5,9 @@
 */
 
 	/////////////////////////////////////
-	//								   //
-	// 	DFS in an unweighted graph 	   //
-	//								   //
+	//                                 //
+	//    DFS in an unweighted graph   //
+	//                                 //
 	/////////////////////////////////////
 
 // The strucutre of the node depending
@@ -112,9 +112,9 @@ int main()
 
 
 	/////////////////////////////////////
-	//								   //
-	// 	DFS in a weighted graph 	   //
-	//								   //
+	//                                 //
+	//  DFS in a weighted graph        //
+	//                                 //
 	/////////////////////////////////////
 
 // The strucutre of the node depending

@@ -611,3 +611,8 @@ class SegmentTree
 
 
 
+
+int main()
+{
+	SegmentTree t
+}
